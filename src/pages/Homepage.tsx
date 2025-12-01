@@ -1,13 +1,13 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import HeroSection from '../components/HeroSection'
-import Landing_page from '../components/Landing_page'
+
+import { Hero_Section } from '../components/Hero_Section'
+import Products from '../components/Products'
+
 function Homepage() {
   return (
 <div className="main_container">
-    {/* <Navbar /> */}
-    {/* <HeroSection /> */}
-    <Landing_page />
+    <Hero_Section />
+    <Products />
 </div>  )
 }
 

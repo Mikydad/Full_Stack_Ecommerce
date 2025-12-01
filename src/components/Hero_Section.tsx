@@ -65,7 +65,7 @@ const Hero = () => {
 export default Hero;
 
 
-export const HeroSection = () => {
+export const Hero_Section = () => {
       return (
         <main className="min-h-screen font-sans flex flex-col">
         <Navbar />

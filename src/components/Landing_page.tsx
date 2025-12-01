@@ -168,7 +168,6 @@ export default function ShopCoLanding() {
       <Navbar />
       {/* This block fills the rest of the viewport:
           HeroSection grows, BrandBar sits at the bottom */}
-      <div className="flex-1 flex flex-col">
         <HeroSection />
         <BrandBar />
       </div>

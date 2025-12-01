@@ -4,7 +4,7 @@ import { MdAccountCircle } from "react-icons/md";
 
 function Navbar() {
   return (
-    <div className='navbar_main_cotainer flex justify-between items-center bg-amber-700 text-white p-4 py-5 mb-7'>
+    <div className='navbar_main_cotainer flex justify-between items-center bg-amber-700 text-white p-4 py-5'>
         <div className="left_side_navbar " >
             SHOP.CO
         </div>
