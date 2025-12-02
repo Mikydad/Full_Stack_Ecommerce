@@ -58,7 +58,7 @@ export const StarRating = ({ value = 0, onChange }: StarRatingProps) => {
 function Product_card({ src, alt, title, initialRating = 0, amount }: ProductCardProps) {
     const [rating, setRating] = useState(initialRating);
   return (
-<div className="main">
+<div className="main m-3 mx-10">
     <div className="image_section bg-amber-600 h-60 w-50 rounded-xl">
       <img src={src} alt={alt} />
     </div>
